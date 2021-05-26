@@ -1,0 +1,17 @@
+.button {
+  display: inline-block;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  background-color: royalblue;
+}
+
+.bg-violet {
+  background-color: rgb(223, 17, 178);
+}
+
+.bg-green { 
+  background-color: rgb(156, 245, 97);
+}

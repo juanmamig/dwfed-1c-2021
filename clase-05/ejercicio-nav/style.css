@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  background-color: #243572;
+  justify-content: space-evenly;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}

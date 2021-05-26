@@ -1,0 +1,19 @@
+body {
+  background-color: indigo
+}
+
+h2 {
+  color:goldenrod; 
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid black;
+  font-weight: bold;
+
+  /* X Y Blur Color */
+  text-shadow: 2px 1px 5px rgb(255, 238, 0);
+}
+
+button {
+  text-align: center;
+}

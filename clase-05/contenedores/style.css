@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: orchid;
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+section {
+  background-color: palevioletred;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.box{
+  width: 50%;
+  background-color: peru;
+  border: 1px solid black;
+}

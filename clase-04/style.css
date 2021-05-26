@@ -1,0 +1,87 @@
+/* Reset */
+
+body {
+  margin: 0;
+}
+
+/* El ul que está dentro del footer */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+body {
+  background-image: url('img/avocado.jpg');
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background-size: contain;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bg-green {
+  background-color: rgb(182, 238, 149);
+}
+
+#c-green {
+  color: #629460;
+}
+
+.card {
+  margin: 20px;
+  width: 340px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #fbfbfb;
+  border-radius: 20px 20px 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.card-title {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card-text {
+  padding: 15px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 20px 20px 0 0;
+  line-height: 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+
+.bg-green { 
+  background-color: #549E6D;
+}
+
+.center {
+  text-align: center;
+}
+
+footer {
+  background-color: #96be8c;
+}
+
+
+
+footer ul a {
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+}
