@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border:20px solid salmon;
+  background-color: royalblue;
+  margin: 10px;
+  background-image: url('brunch.jfif');
+  background-size: contain;
+}
+
+.content-box {
+  box-sizing: content-box;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+
+img {
+  width: 300px;
+  border: 20px solid black;
+}
