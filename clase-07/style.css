@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    margin: auto;
+    display: flex;
+    padding: 6px;
+}
+
+.mitadizq{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+
+}
+.img-izq{
+    width: 50px;
+    height: 50px;
+    margin: 0px 20px;
+}
+
+.color-green{
+    color: #0DAD68;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.mitader{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end ;
+    margin: 2px 2px 2px 2px;
+    align-items: center;
+}
+
+.listas{
+    list-style: none;
+
+}
+.link{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #676767;
+    margin: 20px;
+}
+
+/* SECTION */
+
+.Hero{
+    border: 3px solid black;
+    background-image: url("https://laberints.com/_next/static/media/img-hero.264b62b57e29bd67084f89eec614cb1f.jpg");
+    height: 826px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 200px;
+}
+
+.img-section{
+    width: 150px;
+}
+
+.seccion-izq{
+    color: white;
+}
+
+.cont-princ{
+    font-size: 40px;
+}
+
+.cont-sec{
+    font-size: 16px;
+}
+
+.img-iphone{
+    height: 506px;
+}
+
+
+
+/* Grupo 2*/
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.section-1{
+    margin-top: 100px;
+}
+
+.box-1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box-2{
+    width: 40%;    
+}
+
+h2{
+    font-weight: normal;
+    font-size: 30px;
+    color: #676767;
+}
+
+h3{
+    font-weight:bold;
+    font-size: 15px;
+    color: #676767;
+}
+
+.button {
+    display: inline-block;
+    padding: 13px 30px;
+    border: 2px solid #1FAC6A;
+    color: #1FAC6A;
+    border-radius: 8px;
+    background-color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1FAC6A;
+    max-width: 100%;
+}
+
+.logo-footer{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight:bolder;
+    -webkit-text-stroke: 2px white;
+    color: white;
+    font-size: 35px;
+}
+
+.texto-logo-footer{
+    margin-left: 30px;
+    font-weight:lighter;
+    -webkit-text-stroke: 0px black;
+    color: white;
+    font-size: 15px;
+}
+
+.logo-flex{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+span{
+    margin-left: 13px;
+}
+
+.texto-centro-footer{
+    font-weight:lighter;
+    color: white;
+}
+
+.redes-footer{
+    display: flex;
+    justify-content: space-around;
+    max-width: 33,3%;
+}
+
+.redes-footer img{
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+
+
+/* #3 */
+
+.section{
+    max-width: 768px;
+    margin: 0 auto;
+
+}
+
+.main-container{
+    margin: 60px auto;
+    max-width: 768px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 0px -1px 0px rgb(0, 0, 0); */
+}
+
+.card-1{
+    width: 48%;
+    /* margin: 20px 100px 30px auto; */
+    border: 1px solid rgba(128, 128, 128, 0.281);
+    margin-right: auto;
+    padding: 20px;
+    align-items: center;
+    background-color: white;
+    box-shadow: 10px 10px 10px 0px rgba(128, 128, 128, 0.281);
+    border-radius: 10px;
+}
+
+.card-2{
+    width: 48%;
+    /* margin: 20px 20px 20px auto; */
+    border: 1px solid rgba(128, 128, 128, 0.281);
+    margin-left: auto;
+    padding: 20px;
+    align-items: center;
+    background-color: white;
+    box-shadow: 10px 10px 10px 0px rgba(128, 128, 128, 0.315);
+    border-radius: 10px;
+}
+
+.lista-li{
+    margin: 5px 0px 5px 0px;
+}
+
+.premium-button{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 2px solid #000;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    cursor: pointer;
+    background: none;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#right{
+background-color: white;
+border-color: #0dad68;
+color: #0dad68;
+}
+
+#left{
+    background-color: rgb(36, 32, 32);
+    border-color: #000000;
+    color: white;
+
+}
