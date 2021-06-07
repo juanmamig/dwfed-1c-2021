@@ -1,0 +1,46 @@
+/* Media Query */
+
+/* 
+Para dispositivos cuyo máximo son 768px, aplico las siguientes propiedades.
+
+Para pantallas más chicas de 768px
+*/
+
+/* Reseteo */
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mainNav {
+  background-color: rgb(116, 8, 80);
+}
+
+.mainNav-ul{
+  display: flex;
+}
+
+.mainNav-ul a {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 52px;
+  color:rgb(116, 8, 80);
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+}
