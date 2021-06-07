@@ -38,9 +38,40 @@ h1 {
   color:rgb(116, 8, 80);
 }
 
+.cards-container {
+  display: flex;
+}
+
+.card {
+  width: 260px;
+  text-align: center;
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px 2px rgb(143, 143, 143);;
+}
+
+.card h2 {
+  margin-bottom: 0;
+}
+
 
 @media (max-width: 768px) {
   h1 {
     font-size: 24px;
+  }
+
+  .mainNav {
+    text-align: center;
+  }
+
+  .mainNav-ul {
+    /*display: block;*/
+    flex-direction: column;
+  }
+
+  .cards-container {
+    flex-direction: column;
   }
 }
