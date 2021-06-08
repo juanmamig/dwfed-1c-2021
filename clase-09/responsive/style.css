@@ -7,6 +7,15 @@ Para pantallas más chicas de 768px
 */
 
 /* Reseteo */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
 ul {
   padding: 0;
   list-style: none;
@@ -14,6 +23,16 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+/* Generals */
+.center {
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .mainNav {
@@ -28,6 +47,22 @@ a {
   display: inline-block;
   padding: 10px;
   color: white;
+}
+
+.main-image {
+  max-width: 100%;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+}
+
+.main-image:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 
@@ -86,6 +121,20 @@ h1 {
 }
 
 /*
+  lanscape: ancho > alto
+  portrait: ancho < alto
+*/
+@media all and (orientation: landscape) {
+  .cards-container {
+    flex-direction: row;
+  }
+}
+
+
+@media (prefers-color-scheme: dark) {}
+
+
+/*
 
 Responsive Design
 
@@ -102,6 +151,7 @@ Responsive Design
 }
 
 
+Intervalos
 
 @media (min-width: 1200px) and (max-width: 1400px) {}
 
