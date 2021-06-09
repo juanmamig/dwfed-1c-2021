@@ -1,0 +1,21 @@
+Media Queries
+
+Dispositivos cuya máxima reso sea 768px, inclusive;
+Dispositivos con resoluciones menores a 768px;
+@media (max-width: 768px) {
+
+  .container {
+    flex-direction: column;
+  }
+
+}
+
+
+Dispositivos con resoluciones mayores a 768px;
+@media (min-width: 768px) {
+
+  .container {
+    flex-direction: row;
+  }
+
+}
