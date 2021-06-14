@@ -12,9 +12,14 @@ Para pantallas más chicas de 768px
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
+  padding-top: 40px;
 }
 
 ul {
@@ -22,6 +27,8 @@ ul {
   padding: 0;
   list-style: none;
 }
+
+
 
 a {
   text-decoration: none;
@@ -38,6 +45,11 @@ a {
 }
 
 .mainNav {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: rgb(116, 8, 80);
 }
 
@@ -103,6 +115,10 @@ h1 {
 
 
 @media (max-width: 768px) {
+  body {
+    padding-top: 200px;
+  }
+  
   h1 {
     font-size: 24px;
   }

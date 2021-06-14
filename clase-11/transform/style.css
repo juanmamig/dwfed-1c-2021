@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: cadetblue;
+  margin: 10px;
+}
+
+.scale:hover {
+  /* transform: scale(2); */
+  transform: scaleX(3);
+  /* transform: scaleY(3); */
+}
+
+.translate:hover {
+  transform: translate(50px, 50px);
+  /* transform: translateX(50px);
+  transform: translateY(50px); */
+}
+
+.fff {
+  transform-origin: top left;
+}
+
+.rotate:hover {
+  transform: rotate(-45deg);
+}
+
+.square-to-circle {
+  transition: border-radius 200ms ease;
+}
+
+.square-to-circle:hover {
+  border-radius: 50%;
+}
