@@ -1,0 +1,22 @@
+.barra {
+  height: 40px;
+  border-radius: 15px;
+}
+
+.gris {
+  overflow: hidden;
+  background-color: gray;
+}
+
+.roja {
+  background-color: red;
+}
+
+.roja {
+  transition: transform 3s ease;
+  transform: translateX(-100%);
+}
+
+.gris:hover .roja {
+  transform: translateX(0);
+}
