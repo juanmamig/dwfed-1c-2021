@@ -12,3 +12,15 @@ console.log("Su edad es: " + (edad + 20));
  */
 
 // Ejercicio 2
+
+let edad2 = prompt("Ingrese su edad nuevamente");
+edad2 = parseInt(edad2, 10);
+// console.log("El doble de tu edad es: " + edad2 * 2);
+
+//if (edad2 >= 18) { alert("Puede pasar"); }
+
+if (edad2 >= 18) {
+  alert("Puede pasar");
+} else {
+  alert("No puede pasar");
+}
