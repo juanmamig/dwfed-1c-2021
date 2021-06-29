@@ -39,3 +39,31 @@ for (let propiedad in posteo) {
   console.log(propiedad);
   console.log(posteo[propiedad]);
 }
+
+
+const posteos = [
+  {
+    id: 7532,
+    titulo: "El mejor ejercicio",
+    autor: "NicoBar",
+    categoria: "practicas"
+  },
+  {
+    id: 7533,
+    titulo: "El segundo mejor ejercicio",
+    autor: "JuanMaMig",
+    categoria: "practicas"
+  },
+  {
+    id: 7534,
+    titulo: "El tercer mejor ejercicio",
+    autor: "NicoBar",
+    categoria: "practicas"
+  }
+];
+
+for (let i = 0; i < posteos.length; i++) {
+  `<div class="product">
+    <h1>${posteo[i].titulo}</h1>
+  </div>`
+}
