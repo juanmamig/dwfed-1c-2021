@@ -1,0 +1,22 @@
+.main-content {
+  display: none;
+}
+
+.modal {
+  display: none;
+
+  width: 200px;
+  background-color: white;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+
+  position: fixed;
+  top: 50px;
+  left: calc(50% - 100px);
+}
+
+.active {
+  display: block;
+}

@@ -18,7 +18,19 @@ for (let i = 0; i < allh3.length; i++) {
 // Resaltar los párrafos destacados
 const destacado = document.querySelector(".destacado");
 
-destacados.classList.add("resaltado");
+destacado.classList.add("resaltado");
 // destacado.classList.remove("resaltado");
 // destacado.classList.toggle("resaltado");
+
+
+// Cambiar Texto
+// Tenemos el h1 del comienzo
+
+console.log(h1.textContent); // Nos muestra el contenido
+h1.textContent = "Nuevo título desde JS"; // Cambia el contenido
+
+const nombre = prompt("Ingrese su nombre");
+h1.textContent = nombre;
+
+h1.innerHTML = 'Otro título más desde <span class="resaltado">JS</span>'; // Si encuentra etiquetas HTML, las agrega como html.
 
