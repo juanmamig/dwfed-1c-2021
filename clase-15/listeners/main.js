@@ -21,6 +21,8 @@ openModal.addEventListener('click', function () {
   modal.classList.add('active');
 });
 
-okModal.addEventListener('click', function () {
+function removeActive() {
   modal.classList.remove('active');
-});
+}
+
+okModal.addEventListener('click', removeActive);
