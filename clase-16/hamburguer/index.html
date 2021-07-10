@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <nav class="main-nav active">
+    <ul>
+      <li>
+        <a href="">Página principal</a>
+      </li>
+      <li>
+        <a href="">Página principal</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <div class="hamburguer">
+    <span class="l1"></span>
+    <span class="l1"></span>
+    <span class="l1"></span>
+  </div>
+
+
+  <script>
+    const hamburguer = document.querySelector('.hamburguer');
+    const nav = document.querySelector('.main-nav');
+
+    hamburguer.addEventListener('click', function(){
+      nav.classList.toggle('active');
+    });
+
+    window.addEventListener('keydown', function(e){
+      console.log("Key", e.keyCode);
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(23, 119, 179);
+}
+
+.slider-container{
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slider-container h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
+}
+
+.slide-container {
+  position: relative;
+  border: 10px solid white;
+}
+
+.slide-container button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/* Evita que las imágenes excedan el límite*/
+.slide-container img {
+  max-width: 100%;
+}

@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+.hamburguer {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.l1 {
+  width: 30px;
+  height: 5px;
+  display: block;
+  background-color: black;
+  border-radius: 4px;
+  margin: 5px
+}
+
+.main-nav {
+  background-color: blueviolet;
+  transform: translateY(-100%);
+  transition: transform 1s ease;
+}
+
+.main-nav.active {
+  transform: translateY(0);
+}
+
+.main-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.main-nav a {
+  display: inline-block;
+  color: white;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .hamburguer {
+    display: inline-block;
+  }
+}

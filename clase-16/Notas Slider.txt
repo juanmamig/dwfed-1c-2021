@@ -1,0 +1,31 @@
+1. Siempre vamos a necesitar incluir archivos CSS y JS
+
+- slick.css
+- slick-theme.css
+
+ES IMPORTANTE QUE ESTÉN DENTRO DENTRO DE LA CARPETA SLICK PORQUE LOS CSS USAN LAS FONTS Y OTROS ARCHIVOS.
+
+2. Slick depende de jQuery por eso hay que incluirlo también ANTE de nuestro script
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+
+3. Hay que inicializar los sliders y eso se hace utilizando la clase que seteemos en la estructura del mismo.
+
+$(document).ready(function(){
+  $('.your-class').slick();
+});
+
+4. Si queremos agrgeamos un conjunto de propiedades (objeto como parámetro de la función slick()).
+
+Por último:
+
+MUY IMPORTANTE RESPETAR LA ESCTRUCTURA DEL SLIDER Y SOLO MODIFICAR LOS CONTENEDORES CUSTOM QUE CREAMOS.
+
+<div class="your-class">
+  <div>your content</div>
+  <div>your content</div>
+  <div>your content</div>
+</div>
+
+Si queremos agregar elementos por encima de las imágenes, podemos utilizar los positions que aprendimos.
