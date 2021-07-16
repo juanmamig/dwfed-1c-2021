@@ -11,13 +11,13 @@ $(document).ready(function(){
 
 $('.miniatura-slider').slick({
   slidesToShow: 1,
-  slidesToScroll: 1,
+  slidesToScroll: 0,
   arrows: false,
   fade: true,
   asNavFor: '.miniatura-slider-nav'
 });
 $('.miniatura-slider-nav').slick({
-  slidesToShow: 3,
+  slidesToShow: 5,
   slidesToScroll: 1,
   asNavFor: '.miniatura-slider',
   dots: true,

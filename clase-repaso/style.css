@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.small-container {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+
+.categories-container {
+  display: flex;
+  background-color: aqua;
+  margin: 10px 0;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-c{
+  justify-content: center;
+}
+
+.box {
+  width: 200px;
+  padding: 50px;
+  border: 1px solid black;
+}
+
+
+@media(max-width: 768px) {
+  .small-container {
+    max-width: 100%;
+  }
+}
