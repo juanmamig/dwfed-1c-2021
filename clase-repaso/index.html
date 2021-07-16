@@ -43,12 +43,42 @@
       <div class="box">
         Categoria #
       </div>
-      <div class="box">
+      <div class="box translate">
         Categoria #
       </div>
     </div>
 
   </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <script>
+
+    const box = document.querySelector('.translate');
+
+    window.addEventListener('scroll', function(){
+      // box.style.transform = `translateY(${window.scrollY*-1}px)`;
+      box.style.transform = 'translateY(' + window.scrollY*-1 + 'px)';
+    });
+  </script>
   
 </body>
 </html>
