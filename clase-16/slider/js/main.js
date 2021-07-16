@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 $('.miniatura-slider').slick({
   slidesToShow: 1,
-  slidesToScroll: 0,
+  slidesToScroll: 4,
   arrows: false,
   fade: true,
   asNavFor: '.miniatura-slider-nav'
